@@ -11,6 +11,10 @@ The mathematica code for calculating the Lorentzian spin foam propagator
 4.  Boundary data savedBoundary.wl should be in WorkingPath.
 5.  email.wl should be in WorkingPath if one want to recieve email notification of the calculation process.
 
+#### Remark
+
+Forked from https://gitee.com/ZCHuang1126/spinfoam-propagator.git
+
 #### 参与贡献
 
 1.  Fork 本仓库
