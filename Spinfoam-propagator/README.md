@@ -1,16 +1,15 @@
 # Spinfoam propagator
 
-#### 介绍
+#### Introduction
 The mathematica code for calculating the Lorentzian spin foam propagator
 
-#### 使用说明
+#### Usage
 
-1.  基于wolframscript
-2.  使用方法： wolframscript ActionDerivative-64xgAMMCEB.wls [$\lambda$] [Working Path] [Number of Kernels] [FlowTime] [Number of Burning in Cycles] [Method] [Regulator]
-3.  [Method]=0 加速ODE算法，[Method]=1 Tanizaki 正规化加速ODE， [Method]=2 Mathematica 自带ODE 算法。使用Tanizaki正规化时需设定regulator
-4.  边界文件 savedBoundary.wl 需置于 WorkingPath 中
-5.  email 文件 email.wl 需置于 WorkingPath 中
-6.  需预先在文件中设定发件邮件地址，密码，stmp服务器以及收件邮件地址
+1.  Based on wolframscript
+2.  Usage： wolframscript ActionDerivative-64xgAMMCEB.wls [$\lambda$] [Working Path] [Number of Kernels] [FlowTime] [Number of Burning in Cycles] [Method] [Regulator]
+3.  [Method]=0 Boosted ODE Algorithm，[Method]=1 Tanizaki's algorithm， [Method]=2 Mathematica build in ODE algorithm. Regulator is needed for Tanizaki's algorithm.
+4.  Boundary data savedBoundary.wl should be in WorkingPath.
+5.  email.wl should be in WorkingPath if one want to recieve email notification of the calculation process.
 
 #### 参与贡献
 
