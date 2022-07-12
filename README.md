@@ -6,5 +6,5 @@ The code implemented the Differential Evolution Adaptive Metropolis (DREMA) meth
 
 The boundary data can be generated using the code at https://github.com/LQG-Florida-Atlantic-University/extended_spinfoam
 
-To run the ipynb using Julia, after having Julia installed (www.julialang.com), you can run julia ./preliminary.jl
+To run the ipynb using Julia, after having Julia installed (www.julialang.org), you can run julia ./preliminary.jl
 Then using IJulia; notebook(). You should have a link openning in your browser and you can select the ipynb to run.
